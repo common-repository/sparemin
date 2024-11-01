@@ -1,0 +1,83 @@
+
+/**
+ * Common
+ */
+
+.sparemin-float-none {
+	float: none;
+}
+
+.sparemin-float-left {
+	float: left;
+}
+
+.sparemin-float-right {
+	float: right;
+}
+
+.sparemin-power {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+	border: none;
+	float: right;
+}
+
+.sparemin-avatar {
+	max-width: 4.5rem;
+	max-height: 4.5rem;
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	-webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
+/**
+ * SpareMin Button
+ */
+
+.sparemin-button {
+	display: inline-block;
+	width: 100%;
+	max-width: 20rem;
+	border: 1px solid #d9d9d9;
+
+	&.sparemin-button--style-light {
+		background-color: #ffffff;
+	}
+
+	&.sparemin-button--style-dark {
+		background-color: #f2f5f7;
+	}
+
+	.sparemin-button--link {
+		display: block;
+		text-decoration: none;
+		overflow: hidden;
+		border: none;
+		padding: 0.75rem;
+
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+
+		.sparemin-avatar {
+			float: left;
+			margin-right: 0.75rem;
+		}
+
+		.sparemin-message {
+			vertical-align: top;
+			color: #000;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+}
